@@ -1,0 +1,147 @@
+body {
+  font-family: georgia;
+  background: blue;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+span {
+  font-size: 46px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+span.title {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#main-nav {
+  background: #FFA500;
+}
+#main-nav ul {
+  width: 100%;
+}
+#main-nav ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#main-nav li {
+  float: left;
+  width: 25%;
+}
+#main-nav a {
+  color: #f8f9fb;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+}
+#main-nav a:hover {
+  background: #ffb01f;
+}
+
+section h1 {
+  font-size: 24px;
+  color: #FFA500;
+}
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.lead-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  text-align: left;
+}
+.lessons-banner .banner-content {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+.lessons-banner li {
+  text-transform: uppercase;
+  font-size: 20px;
+  max-width: 500px;
+  margin: 60px 0;
+}
+
+#services {
+  margin-bottom: 60px;
+  margin-bottom: 60px;
+}
+#services li {
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33.3333333333%;
+}
+#services img {
+  width: 60%;
+  margin: 20px 20%;
+}
+#services a {
+  text-decoration: none;
+  color: #FFA500;
+  font-weight: bold;
+}
+#services a:hover {
+  color: red;
+}
+#services:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#projects li {
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 23.5%;
+}
+#projects li:nth-child(4n) {
+  margin-right: 0;
+}
+#projects li img {
+  width: 100%;
+}
